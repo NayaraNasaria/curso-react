@@ -1,10 +1,8 @@
 .NavBar{
-  background-color: #f7dec0;
   color: rgb(30, 30, 30);
   font-weight: 400;
   font-size: 1.025rem;
   display: flex;
-  justify-content: space-between;
   
 }
 
@@ -12,12 +10,65 @@
   list-style: none;
   display: flex;
   height: 100%;
-  margin-bottom: 3%;
+  margin-bottom: 2.5%;
+}
+
+.NavBar .itens__navbar .logo{
+  height: 100px;
+  margin-right: -10%;
+  margin-bottom: -8%;
+  margin-top: -8%;
+  justify-content: center;
 }
 
 .NavBar .itens__navbar li{
   display: flex;
+  padding: 0;
   margin-left: 1rem;
   align-items: center;
   margin-bottom: 8%;
+  cursor: pointer;
 }
+
+.inicio__home{
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  background-color: rgb(247, 236, 221);
+}
+
+.inicio__home .foto__home{
+  margin-left: -10%;
+}
+
+.inicio__home .home{
+  align-items: center;
+  justify-items: center;
+  margin-top: 12%;
+}
+
+.inicio__home .home .titulo__home{
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.inicio__home .home h2{
+  padding: 0;
+  margin: 0;
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.inicio__home .home .acao__testes{
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  height: 48px;
+  width: 200px;
+  color: rgb(247, 236, 221);
+  background-color: black;
+  cursor: pointer;
+}
+
